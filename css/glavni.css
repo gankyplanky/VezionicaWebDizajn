@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0%;
+    margin: 0%;
+
+    background-image: url("../resursi/slike/pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: fantasy;
+}

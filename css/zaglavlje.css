@@ -1,0 +1,94 @@
+:root {
+    --zaglavljePlava: rgba(10, 17, 112, 0.9);
+    --zaglavljePocetnaPozadina: rgba(10, 17, 170, 0.9);
+    --zaglavljeZavrsnaPozadina: rgba(10, 17, 112, 1);
+    --zaglavljeDonjiOkvirBoja: rgba(50, 57, 190, 1);
+  }
+
+@media only screen and (max-width: 1920px) {
+    header {
+        width: 100%;
+        height: auto;
+        
+        background-image: linear-gradient(to left, var(--zaglavljePocetnaPozadina), var(--zaglavljeZavrsnaPozadina));
+        border-bottom: 3px solid var(--zaglavljeDonjiOkvirBoja);
+
+        margin: 0px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+
+        color: azure;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    header .naslovZaglavlja {
+        margin-right: 60px;
+    }
+
+    header a {
+        text-decoration: none;
+        color: azure;
+        background-color: transparent;
+        margin-right: 20px;
+        border: 1px solid azure;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header a:visited,
+    header a:link {
+        animation: deselektujLink 400ms;
+        color: azure;
+        background-color: transparent;
+    }
+
+    header a:active {
+        background-color: transparent;
+        color: azure;
+    }
+
+    header a:hover,
+    header a:focus {
+        animation: selektujLink 400ms;
+        color: var(--zaglavljePlava);
+        background-color: azure;
+    }
+
+    @keyframes selektujLink {
+        0% {
+            color: azure;
+            background-color: transparent;
+        }
+
+        100% {
+            color: var(--zaglavljePlava);
+            background-color: azure;
+        }
+    }
+
+    @keyframes deselektujLink {
+        0% {
+            color: var(--zaglavljePlava);
+            background-color: azure;
+        }
+
+        100% {
+            color: azure;
+            background-color: transparent;
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+}
