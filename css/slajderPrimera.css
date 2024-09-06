@@ -8,21 +8,23 @@ input[type="radio"] {
 }
 
 #slajderPrimera {
-    width: 100%;
+    width: 80%;
     margin-top: 15vh;
     text-align: center;
     color: azure;
+    background: var(--kontejnerPozadina);
+    border-radius: 30px;
 }
 
 .kontejnerPrimera {
-    background: var(--kontejnerPozadina);
-    border-radius: 30px;
     left: 8%;
     position: relative;
-    height: 55vh;
-    width: 80%;
-    padding: 2em;
+    height: 70vh;
+    width: 100%;
+    padding: 1em;
 }
+
+
 
 .slajd-kontejner {
     position: relative;
@@ -148,21 +150,22 @@ input[type="radio"]:checked+label.dugme::after {
     .slajd-kontejner {
         width: 25%;
         height: 80%;
+        right: 9%;
     }
     .dugme:nth-of-type(1) {
-        left: 68%;
+        left: 60%;
         bottom: 60%;
     }
     .dugme:nth-of-type(2) {
-        left: 68%;
+        left: 60%;
         bottom: 50%;
     }
     .dugme:nth-of-type(3) {
-        left: 68%;
+        left: 60%;
         bottom: 40%;
     }
     .dugme:nth-of-type(4) {
-        left: 68%;
+        left: 60%;
         bottom: 30%;
     }
 }
