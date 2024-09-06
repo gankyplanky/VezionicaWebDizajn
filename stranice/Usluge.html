@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/glavni.css">
     <link rel="stylesheet" href="../css/zaglavlje.css">
+    <link rel="stylesheet" href="../css/usluge.css">
     <title>Usluge</title>
 </head>
 <body>
@@ -38,6 +39,39 @@
             </nav>
         </div>
     </header>
+
+    <div id="kontejnerInformacija">
+        <div class="pasus">
+            <h3>Izrada veza</h3>
+            <p>Izrada amblema, logoa i slično na materijalu. Potrebno je spcificirati materijal, poslati sliku i dimenzije završnog veza. Cena zavisi od broja primeraka i kompleksnosti slike.</p>
+        </div>
+
+        <div class="pasus">
+            <h3>Izrada veza na robi</h3>
+            <p>Izrada amblema, logoa i slično na odeći, obući, peškirima, rančevima, kapama i ostalo. Potrebno je poslati sliku i dimenzije završnog veza, kao i robu na kojoj će se vez raditi ili specificirati koja roba se poručuje. Cena zavisi od broja primeraka i kompleksnosti slike.</p>
+        </div>
+
+        <div class="pasus">
+            <h3>Izrada programa za vez</h3>
+            <p>Izrada amblema, logoa i slično u digitalnoj formi za vašu dalju upotrebu. Potrebno je spcificirati tip fajla, poslati sliku i dimenzije završnog veza.</p>
+        </div>
+
+        <div class="pasus">
+            <h3>Prišivanje veza na robu</h3>
+            <p>Prišivanje amblema, logoa i slično na odeći, obući, peškirima, rančevima, kapama i ostalo. Potrebno je poslati robu i vez sa kojima će se raditi.</p>
+        </div>
+    </div> 
+
+    <div id="kontejnerSlanjaPoruke">
+        <h2>Pošaljite nam poruku</h2>
+        <form action="../stranice/PorukaPoslata.html" method="get" id="formaSlanjaPoruke">
+            <input type="text" name="ime" id="ime" placeholder="Ime i Prezime">
+            <input type="text" name="kontakt" id="kontakt" placeholder="Email kontakt">
+            <textarea name="opis" id="opis" placeholder="Opis zahteva" cols="100" rows="5" wrap="soft"></textarea>
+            <input type="submit" id="posaljiDugme" value="Pošalji">
+        </form>
+    </div>
+
 </body>
 
 <script src="../js/zaglavlje.js"></script>

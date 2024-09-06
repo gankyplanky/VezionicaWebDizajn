@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/glavni.css">
+    <link rel="stylesheet" href="../css/zaglavlje.css">
+    <link rel="stylesheet" href="../css/porukaPoslata.css">
+    <title>Slanje poruke</title>
+</head>
+<body>
+    <header>    
+        <div id="gornjiDeoZaglavlja" class="podZaglavlje">    
+            <img src="../resursi/slike/logo.png" alt="Logo" id="logoIkonica">
+
+            <div class="naslovZaglavlja">          
+                <h2>Heppy Vez</h2>
+                <h4>Vaša mašta, naš vez</h4>
+            </div>
+
+            <nav id="normalnaNavigacija">
+                <a href="../index.html">Početna</a>
+                <a href="ONama.html">O nama</a>
+                <a href="Usluge.html">Usluge</a>
+                <a href="Kontakt.html">Kontakt</a>
+            </nav>
+            
+            <div id="hamburgerMeni">
+                <img src="../resursi/slike/hamburgerIkona.png" alt="Hamburger meni ikona" id="hamburgerIkonica">
+            </div>
+        </div>
+
+        <div id="donjiDeoZagavlja" class="podZaglavlje nevidljiv">
+            <nav id="hamburgerNavigacija">
+                <a href="../index.html">Početna</a>
+                <a href="ONama.html">O nama</a>
+                <a href="Usluge.html">Usluge</a>
+                <a href="Kontakt.html">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="kontejnerInformacija">
+        <div class="pasus nevidljiv" id="imePasus">
+            <h3>Prazno ime</h3>
+            <p>Niste popunili polje za ime na formi za slanje poruke.</p>
+        </div>
+
+        <div class="pasus nevidljiv" id="kontaktPasus">
+            <h3>Neispravna mejl adresa</h3>
+            <p>Niste ispravno uneli mejl na formi za slanje poruke.</p>
+        </div>
+
+        <div class="pasus nevidljiv" id="opisPasus">
+            <h3>Prazan opis</h3>
+            <p>Niste popunili opis vašeg zahteva na formi za slanje poruke.</p>
+        </div>
+
+        <div class="pasus nevidljiv" id="uspehPasus">
+            <h3>Poruka uspešno poslata</h3>
+            <p>Poruka je uspešno poslata, možete očekivati odgovor na unetu mejl adresu u naredna 2-3 radna dana.</p>
+        </div>
+    </div>
+
+    <button id="dugmeNazad">Nazad</button>
+
+</body>
+
+    <script src="../js/zaglavlje.js"></script>
+    <script src="../js/slanjePoruke.js"></script>
+
+</html>
