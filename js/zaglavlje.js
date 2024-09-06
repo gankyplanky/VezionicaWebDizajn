@@ -1,5 +1,5 @@
 var hamburgerMeniDugme = document.getElementById("hamburgerIkonica");
-var hamburgerMeniNavigacija = document.getElementById("hamburgerNavigacija");
+var hamburgerMeniNavigacija = document.getElementById("donjiDeoZagavlja");
 var meniProsiren = false;
 
 var hamburgerMeni = document.getElementById("hamburgerMeni");
@@ -29,6 +29,9 @@ function prilagodiZaglavlje() {
         normalnaNavigacija.classList.remove("nevidljiv");
         normalnaNavigacija.classList.add("vidljiv");
     }
+
+    hamburgerMeniNavigacija.classList.add("nevidljiv");
+    hamburgerMeniNavigacija.classList.add("vidljiv");
 }
 
 smanjenEkran.addEventListener("change", prilagodiZaglavlje);

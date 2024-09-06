@@ -11,32 +11,35 @@
 
 <body>
     
-    <header>    
-        <img src="resursi/slike/logo.png" alt="Logo" id="logoIkonica">
+    <header>
+        <div id="gornjiDeoZaglavlja" class="podZaglavlje">    
+            <img src="resursi/slike/logo.png" alt="Logo" id="logoIkonica">
 
-        <div class="naslovZaglavlja">          
-            <h2>Heppy Vez</h2>
-            <h4>Vaša mašta, naš vez</h4>
+            <div class="naslovZaglavlja">          
+                <h2>Heppy Vez</h2>
+                <h4>Vaša mašta, naš vez</h4>
+            </div>
+
+            <nav id="normalnaNavigacija">
+                <a href="index.html" id="trenutni">Početna</a>
+                <a href="stranice/ONama.html">O nama</a>
+                <a href="stranice/Usluge.html">Usluge</a>
+                <a href="stranice/Kontakt.html">Kontakt</a>
+            </nav>
+            
+            <div id="hamburgerMeni">
+                <img src="resursi/slike/hamburgerIkona.png" alt="Hamburger meni ikona" id="hamburgerIkonica">
+            </div>
         </div>
 
-        <nav id="normalnaNavigacija">
-            <a href="index.html" id="trenutni">Početna</a>
-            <a href="stranice/ONama.html">O nama</a>
-            <a href="stranice/Usluge.html">Usluge</a>
-            <a href="stranice/Kontakt.html">Kontakt</a>
-        </nav>
-        
-        <div id="hamburgerMeni">
-            <img src="resursi/slike/hamburgerIkona.png" alt="Hamburger meni ikona" id="hamburgerIkonica">
-
-            <nav id="hamburgerNavigacija" class="nevidljiv">
+        <div id="donjiDeoZagavlja" class="podZaglavlje nevidljiv">
+            <nav id="hamburgerNavigacija">
                 <a href="index.html" id="trenutni">Početna</a>
                 <a href="stranice/ONama.html">O nama</a>
                 <a href="stranice/Usluge.html">Usluge</a>
                 <a href="stranice/Kontakt.html">Kontakt</a>
             </nav>
         </div>
-
     </header>
 
     <div id="slajderPrimera">
