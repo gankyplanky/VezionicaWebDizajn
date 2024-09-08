@@ -86,6 +86,13 @@ header #logoIkonica {
         border-radius: 10px;
         text-decoration: underline;
     }
+
+    header #normalnaNavigacija {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }
 
 @media only screen and (max-width: 400px) {

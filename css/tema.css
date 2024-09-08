@@ -1,0 +1,82 @@
+:root {
+    --kontejnerTamna: rgba(20, 20, 20, 1);
+    --kontejnerSvetla: rgba(230, 230, 230, 1);
+
+    --kontejnerTamnaProvidna: rgba(20, 20, 20, 0.9);
+    --kontejnerSvetlaProvidna: rgba(230, 230, 230, 0.9);
+
+    --slovaTamna: rgba(20, 20, 20, 1);
+    --slovaSvetla: rgba(230, 230, 230, 1);
+}
+
+header #promenaTemeDugme,
+header #promenaTemeDugmeMaliEkran {
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.tamniKontejner {
+    --trenutnaBoja: var(--kontejnerTamna);
+    --predhodnaBoja: var(--kontejnerSvetla);
+    animation: prelazakPozadinskeBoje 0.5s !important;
+    background-color: var(--trenutnaBoja) !important;
+}
+
+.svetliKontejner {
+    --trenutnaBoja: var(--kontejnerSvetla);
+    --predhodnaBoja: var(--kontejnerTamna);
+    animation: prelazakPozadinskeBoje 0.5s !important;
+    background-color: var(--trenutnaBoja) !important;
+}
+
+.tamniProvidniKontejner {
+    --trenutnaBoja: var(--kontejnerTamnaProvidna);
+    --predhodnaBoja: var(--kontejnerSvetlaProvidna);
+    animation: prelazakPozadinskeBoje 0.5s !important;
+    background-color: var(--trenutnaBoja) !important;
+}
+
+.svetliProvidniKontejner {
+    --trenutnaBoja: var(--kontejnerSvetlaProvidna);
+    --predhodnaBoja: var(--kontejnerTamnaProvidna);
+    animation: prelazakPozadinskeBoje 0.5s !important;
+    background-color: var(--trenutnaBoja) !important;
+}
+
+.tamnaSlova {
+    --trenutnaBoja: var(--slovaSvetla);
+    --predhodnaBoja: var(--slovaTamna);
+    animation: prelazakBojeSlova 0.5s !important;
+    color: var(--trenutnaBoja) !important;
+}
+
+.svetlaSlova {
+    --trenutnaBoja: var(--slovaTamna);
+    --predhodnaBoja: var(--slovaSvetla);
+    animation: prelazakBojeSlova 0.5s !important;
+    color: var(--trenutnaBoja) !important;
+}
+
+@keyframes prelazakPozadinskeBoje {
+    from {
+        background-color: var(--predhodnaBoja) !important;
+    }
+
+    to {
+        background-color: var(--trenutnaBoja) !important;
+    }
+}
+
+@keyframes prelazakBojeSlova{
+    from {
+        color: var(--predhodnaBoja) !important;
+    }
+
+    to {
+        color: var(--trenutnaBoja) !important;
+    }
+}

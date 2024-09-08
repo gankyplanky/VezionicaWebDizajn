@@ -1,12 +1,6 @@
-:root {
-    --kontejnerPozadina: rgba(20, 20, 20, 0.9);
-}
-
 #kontejnerInformacija {
     width: 95%;
     border-radius: 20px;
-    background-color: var(--kontejnerPozadina);
-    color: azure;
     margin-top: 10vh;
     padding: 1vh;
 }

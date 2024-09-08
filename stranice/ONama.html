@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Vezionica Heppy Vez" content="Vezionica Heppy Vez nudi izradu veza na robi i u digitalnom obliku uz visok kvalitet i brzi rok dostave.">
     <link rel="stylesheet" href="../css/glavni.css">
     <link rel="stylesheet" href="../css/zaglavlje.css">
     <link rel="stylesheet" href="../css/oNama.css">
+    <link rel="stylesheet" href="../css/tema.css">
     <title>O Nama</title>
 </head>
 <body>
     <header>    
         <div id="gornjiDeoZaglavlja" class="podZaglavlje">    
-            <img src="../resursi/slike/logo.png" alt="Logo" id="logoIkonica">
+            <img onclick="window.location.replace('../index.html')" src="../resursi/slike/logo.png" alt="Logo" id="logoIkonica">
 
             <div class="naslovZaglavlja">          
                 <h2>Heppy Vez</h2>
@@ -23,6 +25,7 @@
                 <a href="ONama.html" id="trenutni">O nama</a>
                 <a href="Usluge.html">Usluge</a>
                 <a href="Kontakt.html">Kontakt</a>
+                <div id="promenaTemeDugme" class="tamniKontejner"></div>
             </nav>
             
             <div id="hamburgerMeni">
@@ -36,29 +39,31 @@
                 <a href="ONama.html" id="trenutni">O nama</a>
                 <a href="Usluge.html">Usluge</a>
                 <a href="Kontakt.html">Kontakt</a>
+                <div id="promenaTemeDugmeMaliEkran" class="tamniKontejner"></div>
             </nav>
         </div>
     </header>
+    <main>
+        <div id="kontejnerInformacija" class="tamniProvidniKontejner">
+            <h2 class="tamnaSlova">O nama</h2>
+            <p class="tamnaSlova">
+                Otvoreni smo za sve vaše ideje i želje i uz zajedničku saradnju daćemo sve od sebe da ih ostvarimo. Posedujemo kompjuterizovanu japansku Happy 
+                mašinu za vez na kojoj u najkraćem roku izrađujemo kvalitetan vez uz upotrebu kvalitetnog Marathon konca.<br><br>
 
-    <div id="kontejnerInformacija">
-        <h2>O nama</h2>
-        <p>
-            Otvoreni smo za sve vaše ideje i želje i uz zajedničku saradnju daćemo sve od sebe da ih ostvarimo. Posedujemo kompjuterizovanu japansku Happy 
-            mašinu za vez na kojoj u najkraćem roku izrađujemo kvalitetan vez uz upotrebu kvalitetnog Marathon konca.<br><br>
-
-            Potrebno je poslati željenu sliku motiva za vez koji bi ste radili, preporučuje se da slika bude vektorska, odnosno izvezena iz Adobe Illustrator-a
-             ili Corel Draw-a. Ukoliko nemate fotografiju veza u tom formatu možete nam poslati u nekom drugom (.jpg, .png, .bmp).<br><br>
-            
-            Ukoliko je odštampana slika (vizit karta, logo ili fotografija) potrebno je da bude što boljeg kvaliteta, vodeći računa da se vide svi detalji. Navesti
-             dimenzije motiva, kao i materijal na kome se radi vez. Ostavite vaš kontakt. Radimo procenu traženog motiva, i onda je besplatna. Ako klijentu odgovara cena
-              izrade veza, koja zavisi od broja uboda, i količine vezenog motiva, prvo šaljemo fotografiju kako motiv za vez izgleda u programu i tom prilikom klijent može 
-              da uputi na eventualne nedostatke i nepravilnosti. Tek kad klijent potvrdi da je zadovoljan izgledom rada pristupamo izradi na dogovorenom materijalu.<br><br>
-            
-            Rok isporuke se dogovara unapred. U zavisnosti od obima posla i potreba klijenta trudićemo se da robu isporučimo u najkraćem mogućem roku.</p>
-    </div>
-
+                Potrebno je poslati željenu sliku motiva za vez koji bi ste radili, preporučuje se da slika bude vektorska, odnosno izvezena iz Adobe Illustrator-a
+                ili Corel Draw-a. Ukoliko nemate fotografiju veza u tom formatu možete nam poslati u nekom drugom (.jpg, .png, .bmp).<br><br>
+                
+                Ukoliko je odštampana slika (vizit karta, logo ili fotografija) potrebno je da bude što boljeg kvaliteta, vodeći računa da se vide svi detalji. Navesti
+                dimenzije motiva, kao i materijal na kome se radi vez. Ostavite vaš kontakt. Radimo procenu traženog motiva, i onda je besplatna. Ako klijentu odgovara cena
+                izrade veza, koja zavisi od broja uboda, i količine vezenog motiva, prvo šaljemo fotografiju kako motiv za vez izgleda u programu i tom prilikom klijent može 
+                da uputi na eventualne nedostatke i nepravilnosti. Tek kad klijent potvrdi da je zadovoljan izgledom rada pristupamo izradi na dogovorenom materijalu.<br><br>
+                
+                Rok isporuke se dogovara unapred. U zavisnosti od obima posla i potreba klijenta trudićemo se da robu isporučimo u najkraćem mogućem roku.</p>
+        </div>
+    </main>
 </body>
 
 <script src="../js/zaglavlje.js"></script>
+<script src="../js/menjanjeTeme.js"></script>
 
 </html>

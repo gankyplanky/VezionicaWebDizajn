@@ -11,8 +11,6 @@ input[type="radio"] {
     width: 80%;
     margin-top: 10vh;
     text-align: center;
-    color: azure;
-    background: var(--kontejnerPozadina);
     border-radius: 30px;
 }
 
@@ -23,8 +21,6 @@ input[type="radio"] {
     width: 100%;
     padding: 1em;
 }
-
-
 
 .slajd-kontejner {
     position: relative;

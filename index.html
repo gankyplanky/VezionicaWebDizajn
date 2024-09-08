@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Vezionica Heppy Vez" content="Vezionica Heppy Vez nudi izradu veza na robi i u digitalnom obliku uz visok kvalitet i brzi rok dostave.">
     <link rel="stylesheet" href="css/glavni.css">
     <link rel="stylesheet" href="css/zaglavlje.css">
     <link rel="stylesheet" href="css/slajderPrimera.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tema.css">
     <title>Početna</title>
 </head>
 
 <body>
     
     <header>
-        <div id="gornjiDeoZaglavlja" class="podZaglavlje">    
+        <div id="gornjiDeoZaglavlja" class="podZaglavlje ">    
             <img onclick="window.location.replace('index.html')" src="resursi/slike/logo.png" alt="Logo" id="logoIkonica">
 
             <div class="naslovZaglavlja">          
@@ -26,6 +28,7 @@
                 <a href="stranice/ONama.html">O nama</a>
                 <a href="stranice/Usluge.html">Usluge</a>
                 <a href="stranice/Kontakt.html">Kontakt</a>
+                <div id="promenaTemeDugme" class="tamniKontejner"></div>
             </nav>
             
             <div id="hamburgerMeni">
@@ -39,58 +42,60 @@
                 <a href="stranice/ONama.html">O nama</a>
                 <a href="stranice/Usluge.html">Usluge</a>
                 <a href="stranice/Kontakt.html">Kontakt</a>
+                <div id="promenaTemeDugmeMaliEkran" class="tamniKontejner"></div>
             </nav>
         </div>
     </header>
+    <main>
+        <div id="slajderPrimera" class="tamniProvidniKontejner">
+            <h2 class="tamnaSlova">Primeri našeg rada</h2>
+            <div class="kontejnerPrimera">
+                <input type="radio" name="slajder" id="slajd-1-okidac" class="okidac" checked>
+                <label class="dugme" for="slajd-1-okidac"></label>
+                <input type="radio" name="slajder" id="slajd-2-okidac" class="okidac">
+                <label class="dugme" for="slajd-2-okidac"></label>
+                <input type="radio" name="slajder" id="slajd-3-okidac" class="okidac">
+                <label class="dugme" for="slajd-3-okidac"></label>
+                <input type="radio" name="slajder" id="slajd-4-okidac" class="okidac">
+                <label class="dugme" for="slajd-4-okidac"></label>
 
-    <div id="slajderPrimera">
-        <h2>Primeri našeg rada</h2>
-        <div class="kontejnerPrimera">
-            <input type="radio" name="slajder" id="slajd-1-okidac" class="okidac" checked>
-            <label class="dugme" for="slajd-1-okidac"></label>
-            <input type="radio" name="slajder" id="slajd-2-okidac" class="okidac">
-            <label class="dugme" for="slajd-2-okidac"></label>
-            <input type="radio" name="slajder" id="slajd-3-okidac" class="okidac">
-            <label class="dugme" for="slajd-3-okidac"></label>
-            <input type="radio" name="slajder" id="slajd-4-okidac" class="okidac">
-            <label class="dugme" for="slajd-4-okidac"></label>
-
-            <div class="slajd-kontejner">
-                <div id="slajd-uloga">
-                    <div class="slajd slajd-1"></div>
-                    <div class="slajd slajd-2"></div>
-                    <div class="slajd slajd-3"></div>
-                    <div class="slajd slajd-4"></div>
+                <div class="slajd-kontejner">
+                    <div id="slajd-uloga">
+                        <div class="slajd slajd-1"></div>
+                        <div class="slajd slajd-2"></div>
+                        <div class="slajd slajd-3"></div>
+                        <div class="slajd slajd-4"></div>
+                    </div>
                 </div>
+
+            </div>
+        </div>
+
+        <div id="kontejnerOsnovnihInformacija" class="tamniProvidniKontejner">
+            <div class="pasus tamnaSlova">
+                <h3>Šta je vez?</h3>
+                <p>Vez je umetnost ukrašavanja i predstavlja spoj tradicionalneveštine i kompijuterskog programiranja, što ga čini jednim od najatraktivnijih tehnika brendiranja.</p>
             </div>
 
-        </div>
-    </div>
+            <div class="pasus tamnaSlova">
+                <h3>Ko smo mi?</h3>
+                <p>Vezionica Heppy Vez se bavi uslužnom izradom mašinskog veza na tekstilu - na gotovim proizvodima, iskrojenim delovima, kao i izradu aplikacija, grbova i amblema</p>
+            </div>
 
-    <div id="kontejnerOsnovnihInformacija">
-        <div class="pasus">
-            <h3>Šta je vez?</h3>
-            <p>Vez je umetnost ukrašavanja i predstavlja spoj tradicionalneveštine i kompijuterskog programiranja, što ga čini jednim od najatraktivnijih tehnika brendiranja.</p>
-        </div>
+            <div class="pasus tamnaSlova">
+                <h3>Vez kao poklon</h3>
+                <p>Vaša mašta a naš vez, od nečeg običnog možemo da napravimo neobičan poklon.Poklonite nekome originalan, ili personalizovan poklon za rođendan, krštenje, venčanje, slavu ili bilu koju priliku.</p>
+            </div>
 
-        <div class="pasus">
-            <h3>Ko smo mi?</h3>
-            <p>Vezionica Heppy Vez se bavi uslužnom izradom mašinskog veza na tekstilu - na gotovim proizvodima, iskrojenim delovima, kao i izradu aplikacija, grbova i amblema</p>
+            <div class="pasus tamnaSlova">
+                <h3>Poslovna saradnja</h3>
+                <p>Firmi koja želi da ostavi utisak kvalitetne promocije nudimo vez kao tehniku koja će to učiniti veoma efektivno i upečatljivo</p>
+            </div>
         </div>
-
-        <div class="pasus">
-            <h3>Vez kao poklon</h3>
-            <p>Vaša mašta a naš vez, od nečeg običnog možemo da napravimo neobičan poklon.Poklonite nekome originalan, ili personalizovan poklon za rođendan, krštenje, venčanje, slavu ili bilu koju priliku.</p>
-        </div>
-
-        <div class="pasus">
-            <h3>Poslovna saradnja</h3>
-            <p>Firmi koja želi da ostavi utisak kvalitetne promocije nudimo vez kao tehniku koja će to učiniti veoma efektivno i upečatljivo</p>
-        </div>
-    </div>
-
+    </main>
 </body>
 
     <script src="js/zaglavlje.js"></script>
+    <script src="js/menjanjeTeme.js"></script>
 
 </html>

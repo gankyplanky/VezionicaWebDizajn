@@ -13,3 +13,7 @@ body {
 
     font-family: fantasy;
 }
+
+h2:hover, h2:hover, h3:hover, h4:hover {
+    text-shadow: 2px 2px 5px red;
+}

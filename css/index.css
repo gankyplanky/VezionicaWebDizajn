@@ -3,7 +3,6 @@
 }
 
 #kontejnerOsnovnihInformacija {
-    background-color: var(--kontejnerPozadina);
     border-radius: 20px;
     width: 95%;
     height: auto;
@@ -17,7 +16,6 @@
 }
 
 .pasus {
-    color: azure;
     width: 20%;
     margin: 10px;
 }
