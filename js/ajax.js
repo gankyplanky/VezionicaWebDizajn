@@ -5,6 +5,6 @@ window.addEventListener("load", () => {
         document.getElementById("kontejnerInformacija").innerHTML = this.responseText;
     }
 
-    xhttp.open("GET", "https://gankyplanky.github.io/VezionicaWebDizajn//resursi/drugo/kontakti.txt", true);
+    xhttp.open("GET", "https://gankyplanky.github.io/VezionicaWebDizajn/resursi/drugo/kontakti.txt", true);
     xhttp.send();
 });
