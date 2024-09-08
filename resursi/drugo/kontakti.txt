@@ -1,0 +1,14 @@
+<div class="p-1 mr-2">
+    <h3>Email</h3>
+    <p>Example@gmail.com</p>
+</div>
+
+<div class="p-1 mr-2">
+    <h3>Telefon</h3>
+    <p>Tel. br: 123 3718634872</p>
+</div>
+
+<div class="p-1 mr-2">
+    <h3>Adresa</h3>
+    <p>Zrenjanin, Neka ulica 123</p>
+</div>

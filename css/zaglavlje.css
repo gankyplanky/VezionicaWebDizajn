@@ -5,6 +5,10 @@
     --zaglavljeDonjiOkvirBoja: rgba(50, 57, 190, 1);
   }
 
+header #logoIkonica {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1920px) {
     header {
         width: 100%;
